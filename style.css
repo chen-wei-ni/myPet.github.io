@@ -66,7 +66,7 @@ body {
   top: 15%;
   left: 0;
   opacity: 0;
-  z-index: -1;
+  z-index: 1;
   transform: skew(-15deg) rotate3d(1, 1, 1, 45deg);
 }
 .wrapper .slide.back ul li {
@@ -107,13 +107,13 @@ main .stain_cat {
   height: 350px;
   position: absolute;
   -webkit-mask-image: url("https://raw.githubusercontent.com/chen-wei-ni/myPet.github.io/pet/images/meow.png");
-  mask-image: url("https://raw.githubusercontent.com/chen-wei-ni/myPet.github.io/pet/images/meow.png");
+          mask-image: url("https://raw.githubusercontent.com/chen-wei-ni/myPet.github.io/pet/images/meow.png");
   -webkit-mask-size: contain;
-  mask-size: contain;
+          mask-size: contain;
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
   -webkit-mask-position: 10% 100%;
-  mask-position: 10% 100%;
+          mask-position: 10% 100%;
   opacity: 0;
 }
 main .stain_cat video {
@@ -241,7 +241,7 @@ footer .connect {
   padding: 2rem 0;
   overflow: hidden;
 }
-.blackPart .photoWall [class^="ccphoto"] {
+.blackPart .photoWall [class^=ccphoto] {
   pointer-events: none;
   min-width: 140%;
   animation: loopSlider 20800ms linear infinite;
@@ -262,7 +262,7 @@ footer .connect {
 .blackPart .talktoCC .radiusfilm {
   width: 350px;
   -webkit-clip-path: ellipse(48% 32% at 51% 53%);
-  clip-path: ellipse(48% 32% at 51% 53%);
+          clip-path: ellipse(48% 32% at 51% 53%);
 }
 .blackPart .talktoCC .radiusfilm video {
   height: 300px;
@@ -594,7 +594,7 @@ footer .connect {
   .blackPart .talktoCC .radiusfilm {
     width: 100%;
     -webkit-clip-path: ellipse(35% 35% at 51% 53%);
-    clip-path: ellipse(35% 35% at 51% 53%);
+            clip-path: ellipse(35% 35% at 51% 53%);
   }
   .blackPart .talktoCC .radiusfilm video {
     width: 100%;
@@ -620,4 +620,4 @@ footer .connect {
   .blackPart .logo {
     width: 50%;
   }
-}
+}/*# sourceMappingURL=style.css.map */
