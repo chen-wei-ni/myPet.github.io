@@ -18,7 +18,7 @@ function scrollShowPrint() {
             cat.style.animation = "videoShowUp 2s ease forwards";
         }
     });
-    console.log(windowHeight, blackArea.offsetTop);
+    // console.log(windowHeight, blackArea.offsetTop);
     if (windowHeight > blackArea.offsetTop + 500) {
         logo.style.opacity = "1";
     } else {
