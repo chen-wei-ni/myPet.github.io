@@ -33,6 +33,7 @@ body {
 .wrapper .cc_photo {
   display: flex;
   justify-content: center;
+  z-index: 10;
 }
 .wrapper .cc_photo figure {
   width: 900px;
