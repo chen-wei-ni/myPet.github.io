@@ -29,11 +29,13 @@ body
         justify-content: center
         figure
             width: 900px
+            z-index: 10
     .slide
         +size(100%,100%)
         position: absolute
         top: 20%
         overflow: hidden
+        z-index: 11
         ul
             list-style: none
             display: flex
@@ -76,6 +78,7 @@ body
         top: 22%
         left: 50%
         transform: translate(-50%)
+        z-index: 11
 main
     padding: 5rem 0 0 0
     width: 100%
