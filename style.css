@@ -314,6 +314,9 @@ footer .connect {
   display: flex;
   margin: 0.5rem 0 2rem 0;
 }
+.blackPart .endPart ul li {
+  list-style: none;
+}
 .blackPart .endPart ul li a {
   display: flex;
   justify-content: center;
