@@ -498,7 +498,7 @@ footer .connect {
 @media screen and (max-width: 700px) {
   .wrapper h1 {
     font-size: 6rem;
-    white-space: wrap;
+    white-space: normal;
     text-align: center;
     line-height: 1.1;
   }
